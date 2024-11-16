@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #89ccd1;
 }
 
 .todo_list {
@@ -16,6 +17,33 @@ ul {
     padding: 0;
 }
 
+li {
+    margin: 10px;
+}
+
 .delete_btn, .completed_btn {
     margin-left: 1rem;
+}
+
+.container {
+    width: 35%;
+    margin: auto;
+}
+
+input, #Aggiungi, .completed_btn, .delete_btn {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px;
+}
+
+#Aggiungi:hover, .completed_btn:hover {
+    cursor: pointer;
+    background-color: #0CCE6B;
+}
+
+.delete_btn:hover {
+    cursor: pointer;
+    background-color: #D7263D;
 }
